@@ -49,7 +49,7 @@ public class Test
 
     public static void main(String[] args)  
     { 
-        String exp="231*+9-"; 
+        String exp="422*+8-"; 
         System.out.println("postfix evaluation: "+evaluatePostfix(exp)); 
     } 
 } 
