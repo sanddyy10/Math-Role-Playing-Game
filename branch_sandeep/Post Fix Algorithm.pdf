@@ -1,0 +1,21 @@
+Algorithm for reverse polish notation:
+
+Create a stack to store values.
+
+Scan the given expression and do following for each and every value.
+→ If the element is a number, push it into the stack.
+→ If the element is an operator, pop two operands for the operator from stack.
+→ Evaluate and push the result to the stack.
+→ When the given expression is ended, the number in the stack is the final answer.  
+
+
+Example:
+Given Expression: 422*+8-
+First check “4”, its a number so push it to the stack. (Stack: 4).
+Check “2”, its a number so push it to the stack. (Stack: 42).
+Check “2”, its a number so push it to the stack. (Stack: 422).
+Check “*”, it’s an operator, pop two operands from stack, apply the * operator on operands, we get 2*2 which in 4. (Stack: 44).
+Check “+”, it’s an operator, pop two operands from stack, apply the + operator on operands, we get 4 + 4 which results in 10. (Stack: 8).
+Check “8”, its a number so push it to the stack. (Stack: 88).
+Check “-”, it’s an operator, pop two operands from stack, apply the – operator on operands, we get 8 – 8 which results in 0. (Stack: 0).
+There is not element in the expression to check. 
