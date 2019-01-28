@@ -1,0 +1,38 @@
+.heading{
+	margin: 10px;
+	margin-left: 30px;
+	font-style: italic;
+}
+.container{
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 50px;
+}
+.target_area{
+	text-align: center;
+	padding: 20px;
+	border-right: 2px solid black;
+}
+.target_area>p{
+	color :  grey;
+	font-size: 50px;
+}
+.cal_area{
+	text-align: center;
+	padding: 20px;
+	border-right: 2px solid black;
+}
+#cal_string{
+	text-align: right;
+	background-color: #444;
+	color: #fff;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 10px;
+}
+.num_btn{
+	padding: 15px;
+	background-color: #444;
+	font: bold;
+}
