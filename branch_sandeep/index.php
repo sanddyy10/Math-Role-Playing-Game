@@ -1,23 +1,75 @@
 <?php
-	$base_url = 'http://localhost/bodmas/'.$_SERVER['http://localhost/bodmas/'];
+	$base_url = "http://localhost/postfix/".$_SERVER['http://localhost/postfix/'];
 ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Introduction To Research</title>
+	<title>RESEARCH GAME </title>
 	<link rel="stylesheet" href="<?= $base_url.'/main.css'; ?>">
 	<link rel="stylesheet" type="text/css" href="<?= $base_url.'/asset/css/bootstrap.css'; ?>">
 	<script src="<?= $base_url.'/asset/js/bootstrap.js'; ?>" type="text/javascript" charset="utf-8" async defer></script>
 </head>
 <body>
-	<h1 class="heading">The Postfix Game</h1>
+	<?php
+							$a = rand(1,9);
+							$b = rand(1,9);
+							$c = rand(1,9);
+							$d = rand(1,9);
+
+							$tb_num = 0;
+							$case = rand(1,11);
+							// echo $case;
+							switch ($case) {
+								case '1':
+									$tb_num = $a + $b + $c + $d;
+									break;
+								case '2':
+									$tb_num = $a - $b + $c + $d;
+									break;
+								case '3':
+									$tb_num = $a - $b - $c + $d;
+									break;
+								case '4':
+									$tb_num = $a - $b - $c - $d;
+									break;
+								case '5':
+									$tb_num = ($a + $b) * $c - $d;
+									break;
+								case '6':
+									$tb_num = ($a / $b) - $c * $d;
+									break;
+								case '7':
+									$tb_num = $a - ($b + $c) / $d;
+									break;
+								case '8':
+									$tb_num = $a - $b + $c / $d;
+									break;
+								case '9':
+									$tb_num = $a - $b * $c / $d;
+									break;
+								case '10':
+									$tb_num = $a / $b * ($c - $d);
+									break;
+								case '11':
+									$tb_num = ($a + $b * $c) - $d;
+									break;
+								case '11':
+									$tb_num = ($a / $b + $c) / $d;
+									break;
+								default:
+									$tb_num = ($a * $b / $c) + $d;
+									break;
+							}
+						?>
+	<h1 class="heading">Math Game</h1>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-3 target_area" id="target_number">
 				<h3 class="target">Target Number</h3>
-				<p id="trg_num"><?= rand(1,100); ?></p>
+				<p id="trg"><?= number_format($tb_num,0); ?></p>
+				<p id="trg_num" style="display: none;"><?= $tb_num ?></p>
 			</div>
 			<div class="col-lg-5 cal_area">
 				<h5 id="cal_string">Select Inputs</h5>
@@ -26,29 +78,17 @@
 			</div>
 			<div class="col-lg-4">
 				<div class="row" style="width: 90%;margin-left: 5%;padding: 20px;">
-					<div class="col-lg-3">
-						<?php
-							$v = rand(0,9);
-						?>
-						<button class="btn btn-secondary num_btn" value="<?= $v; ?>" id="btn1" onclick="change_string(this.value,1)"><?= $v; ?></button>
+					<div class="col-lg-3">						
+						<button class="btn btn-secondary num_btn" value="<?= $a; ?>" id="btn1" onclick="change_string(this.value,1)"><?= $a; ?></button>
 					</div>
 					<div class="col-lg-3">
-						<?php
-							$v = rand(0,9);
-						?>
-						<button class="btn btn-secondary num_btn" value="<?= $v; ?>" id="btn2" onclick="change_string(this.value,2)"><?= $v; ?></button>
+						<button class="btn btn-secondary num_btn" value="<?= $b; ?>" id="btn2" onclick="change_string(this.value,2)"><?= $b; ?></button>
 					</div>
 					<div class="col-lg-3">
-						<?php
-							$v = rand(0,9);
-						?>
-						<button class="btn btn-secondary num_btn" value="<?= $v; ?>" id="btn3" onclick="change_string(this.value,3)"><?= $v; ?></button>
+						<button class="btn btn-secondary num_btn" value="<?= $c; ?>" id="btn3" onclick="change_string(this.value,3)"><?= $c; ?></button>
 					</div>
 					<div class="col-lg-3">
-						<?php
-							$v = rand(0,9);
-						?>
-						<button class="btn btn-secondary num_btn" value="<?= $v; ?>" id="btn4" onclick="change_string(this.value,4)"><?= $v; ?></button>
+						<button class="btn btn-secondary num_btn" value="<?= $d; ?>" id="btn4" onclick="change_string(this.value,4)"><?= $d; ?></button>
 					</div>
 
 				</div>
