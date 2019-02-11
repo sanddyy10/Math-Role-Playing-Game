@@ -1,4 +1,4 @@
-To compile and run the files in the src folder it is assumed you already have xampp server set up on your machine
+To compile and run the files it is assumed you already have xampp server set up on your machine
 
 Fork the project, clone your fork:
 
