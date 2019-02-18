@@ -56,6 +56,8 @@
 						?>
 	<h1 class="heading">The Mathematics Game</h1>
 	<div class="container">
+			<div id="some_div">
+			</div>
 		<div class="row">
 			<div class="col-lg-3 target_area" id="target_number">
 				<h3 class="target"><b><i>Target Number</i></b></h3>
@@ -198,6 +200,22 @@
 <p style="display: none" id="pot">-1</p>
 </html>
 <script type="text/javascript">
+
+	//Time Function
+	var timeLeft = 30;
+    var elem = document.getElementById('some_div');
+    
+    var timerId = setInterval(countdown, 1000);
+    
+    function countdown() {
+      if (timeLeft == 0) {
+        clearTimeout(timerId);
+        doSomething();
+      } else {
+        elem.innerHTML = timeLeft + ' seconds remaining';
+        timeLeft--;
+      }
+    }
 	
 	function push_element(element, btnnum){		
 	var tg_num = parseInt(document.getElementById('trg_num').innerHTML);	

@@ -1,0 +1,297 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tg",
+				"tg_num"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"bt",
+				"btn2"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"c",
+				"cell3"
+			],
+			[
+				"d",
+				"dataTable"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"In",
+				"INPUT"
+			],
+			[
+				"t",
+				"tableID"
+			],
+			[
+				"inp",
+				"inputValList"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"in",
+				"inputValList"
+			],
+			[
+				"r",
+				"row"
+			],
+			[
+				"i",
+				"id\tAttr"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"table",
+				"tablearea"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"D",
+				"Data"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"g",
+				"getElementById"
+			],
+			[
+				"o",
+				"onclick\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/woolf5u/Documents/Sandeep_France/Dassault Systemes/Project/DocDevW3D/BubbleApp.js.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/Maths_prob_new/index.php",
+		"/Users/woolf5u/Downloads/Maths_prob 2/index.php",
+		"/Users/woolf5u/Documents/Sandeep_France/Narendra_JS_Course/Button.html",
+		"/Users/woolf5u/Documents/Sandeep_France/Dassault Systemes/Project/DocDevW3D/W3DApp.js.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/postfix/index.php",
+		"/Users/woolf5u/Desktop/numgame.php",
+		"/Users/woolf5u/Documents/Sandeep_France/Dassault Systemes/Project/DocDevW3D/Bubble.html",
+		"/Users/woolf5u/Desktop/Node.java",
+		"/Users/woolf5u/Desktop/tree.java",
+		"/Users/woolf5u/Desktop/Solution.java",
+		"/Users/woolf5u/Documents/Sandeep_France/GLOBAL_LABS/expressiontree.java",
+		"/Users/woolf5u/Desktop/Test.java",
+		"/Users/woolf5u/Desktop/test.java",
+		"/Users/woolf5u/Documents/Sandeep_France/GLOBAL_LABS/tictoc.java",
+		"/Users/woolf5u/Documents/DotScreen/Steps to run the game",
+		"/thread.c",
+		"/Users/woolf5u/Desktop/Sandeep Important/GlobusITINC/Task-1/TimeSheet.html",
+		"/Users/woolf5u/Desktop/GlobusITINC/Task-2/LicensePlate/src/licenseplate/LicensePlate.java",
+		"/Users/woolf5u/Desktop/GlobusITINC/Task-1/TimeSheet.html",
+		"/Users/woolf5u/Desktop/index.html",
+		"/Users/woolf5u/Desktop/Fiverr.html",
+		"/Users/woolf5u/Desktop/test.html",
+		"/Users/woolf5u/Desktop/practise.html",
+		"/Users/woolf5u/Desktop/time.js",
+		"/Users/woolf5u/Desktop/practice.js",
+		"/Users/woolf5u/Desktop/FirstTask.html",
+		"/Users/woolf5u/Desktop/licenseplate.cs",
+		"/Users/woolf5u/Desktop/ajax.html",
+		"/Users/woolf5u/Desktop/TimeSheet.html",
+		"/Users/woolf5u/Desktop/d.html",
+		"/Users/woolf5u/Desktop/demo.html",
+		"/Users/woolf5u/Desktop/index1.html",
+		"/Users/woolf5u/Desktop/first.html",
+		"/Users/woolf5u/Desktop/Hello",
+		"/Users/woolf5u/Desktop/Progress bar task/image-preloader-progress-bar/index.html",
+		"/Users/woolf5u/Desktop/Progress bar task/nprogress.js",
+		"/Users/woolf5u/Desktop/fwdadvanceddatabaseassignment/q2.sql",
+		"/Users/woolf5u/Desktop/fwdadvanceddatabaseassignment/q1.sql",
+		"/Users/woolf5u/Documents/sandeepresume/index.php",
+		"/Users/woolf5u/Documents/index.php"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Applications/XAMPP/xamppfiles/htdocs/Maths_prob_new/index.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
